@@ -44,6 +44,10 @@ h1 {
     margin-bottom: 40px;
     padding-bottom: 20px;
 }
+
+.footer {
+    text-align: center;
+}
 .section {
     margin-bottom: 60px;
 }
