@@ -2,6 +2,9 @@ body {
     font-family: 'Times New Roman', Times, serif;
     height: 100%;
     text-align: center;
+    flex-direction: column;
+    display: flex;
+    margin: 0;
     
 }
 
@@ -45,17 +48,14 @@ h1 {
     padding-bottom: 20px;
 }
 
-.footer {
-    text-align: center;
-}
 .section {
     margin-bottom: 60px;
 }
 img {
-    width: 50%;
+    width: 90%;
     height:auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10px;
     border-radius: 20px;
 }
@@ -157,7 +157,7 @@ body {
     flex-wrap: wrap;
     margin: 20px 0 10px;
     align-items: center;
-    height: 100vh;
+    min-height: 100px;
 }
 
 
@@ -185,4 +185,9 @@ body {
     font-size: 0.9rem;
     font-weight: 350;
     color: #6b3e00;
+}
+
+.footer {
+    text-align: center;
+    margin: 40px;
 }
